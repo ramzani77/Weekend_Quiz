@@ -1,4 +1,4 @@
-name: Scedule Workflow
+name: schedule Workflow
 
 on:
   schedule:
