@@ -5,7 +5,7 @@ on:
 
 jobs:
   pull-request-job:
-    runs-on: ubuntu-lattest
+    runs-on: ubuntu-latest
     steps:
       - name: Print pull request triggere
         run: echo "The workflow is triggerd when a pull request is opened."

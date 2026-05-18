@@ -6,7 +6,7 @@ on:
 
 jobs:
   schedule-job:
-    runs-on: ubuntu-lattest
+    runs-on: ubuntu-latest
     steps:
       - name: Print Scedule Trigger
         run: echo "This workflow runs every 5 minutes on a schedule"
