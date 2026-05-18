@@ -1,0 +1,12 @@
+name: Scedule Workflow
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  schedule-job:
+    runs-on: ubuntu-lattest
+    steps:
+      - name: Print Scedule Trigger
+        run: echo "This workflow runs every 5 minutes on a schedule"
