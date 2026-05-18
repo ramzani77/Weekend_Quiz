@@ -7,7 +7,7 @@ on:
 
 jobs:
   job1:
-    runs-on: ubuntu-lattest
+    runs-on: ubuntu-latest
     steps:
       - name: Print Push Event
         run: echo "This workflow is triggered by a push to the Main Branch"
